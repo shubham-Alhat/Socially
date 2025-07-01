@@ -173,4 +173,4 @@ npx prisma generate
 
 The error will fix now
 
-1:31
+2:27
