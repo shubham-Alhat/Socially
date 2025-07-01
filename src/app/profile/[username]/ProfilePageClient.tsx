@@ -149,7 +149,7 @@ function ProfilePageClient({
                   </SignInButton>
                 ) : isOwnProfile ? (
                   <Button
-                    className="w-full mt-4 cursor-pointer"
+                    className="w-full mt-4"
                     onClick={() => setShowEditDialog(true)}
                   >
                     <EditIcon className="size-4 mr-2" />
@@ -206,7 +206,7 @@ function ProfilePageClient({
             <TabsTrigger
               value="posts"
               className="flex items-center gap-2 rounded-none data-[state=active]:border-b-2 data-[state=active]:border-primary
-               data-[state=active]:bg-transparent px-6 font-semibold p-1.5 cursor-pointer"
+               data-[state=active]:bg-transparent px-6 font-semibold"
             >
               <FileTextIcon className="size-4" />
               Posts
@@ -214,7 +214,7 @@ function ProfilePageClient({
             <TabsTrigger
               value="likes"
               className="flex items-center gap-2 rounded-none data-[state=active]:border-b-2 data-[state=active]:border-primary
-               data-[state=active]:bg-transparent px-6 font-semibold p-1.5 cursor-pointer"
+               data-[state=active]:bg-transparent px-6 font-semibold"
             >
               <HeartIcon className="size-4" />
               Likes
